@@ -1,0 +1,307 @@
+html p {
+    font-size: 20px;
+}
+
+
+header {
+    background-color: #b3d9ff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+
+header img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    
+}
+
+
+.navbar {
+    background-color: #b3d9ff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.navbar:hover {
+    background-color: #b3d9ff;
+}
+
+
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar li a {
+    padding: 10px 20px 10px 20px;
+    max-width: 850px;
+    background-color: #ffe66b;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 25px 20px 15px 20px;
+    color: #bdb6e3;
+}
+
+.navbar li a:hover {
+    background-color: whitesmoke;
+}
+
+.navbar li a:active {
+    background-color: red;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+.AboutUs p {
+    width: 550px;
+}
+
+.ServiceArea p {
+    width: 800px;
+}
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+
+
+body {
+    font-family: Verdana;
+    background-image: linear-gradient(to bottom right, #ffe66b, #b3d9ff);
+
+}
+
+footer {
+    background-color: #ffe66b;
+}
+
+
+.Info p {
+    text-align: left;
+}
+
+
+
+.Staff h3 {
+    color: black;
+}
+
+
+
+.Staff p {
+    width: 900px;
+}
+
+.Staff img{
+    width: 250px;
+    height: 300px;
+}
+
+table, th, td {
+    width: 800px;
+    padding: 2px;
+    text-align: left;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th { 
+    background-color: #b3d9ff;
+}
+
+
+.details {
+    display: none;
+}
+
+
+.details p {
+    width: 750px;
+    text-align: left;
+}
+
+
+
+select {
+    padding: 10px;
+    width: 15%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Article1 {
+    background-color: #FFF;
+    height: 550px;
+    width: 1000px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px;
+    background: rgba(238, 255, 142, 0.8);
+
+
+}
+
+
+.AboutUs img {
+    width: 350px;
+    height: 290px;
+    float: right;
+}
+
+.Article2 {
+    background-color: #FFF;
+    height: 1500px;
+    width: 1000px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    margin: 15px 0px 20px 0px;
+    box-shadow: 2px 2px;
+    opacity: 0.8;
+    background: rgba(238, 255, 142, 0.8);
+}
+
+aside {
+    background-color: #FFF;
+    height: 150px;
+    width: 1000px;
+    border-radius: 25px;
+    padding: 10px 10px;
+    box-shadow: 2px 2px;
+    opacity: 0.8;
+    background: rgb(238, 255, 142, 0.8);
+    margin-top: auto;
+}
+
+
+input {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.container {
+    display:inline-flex;
+}
+
+
+.Options {
+    display: flex;
+    padding: 20px 10px 20px 10px;
+}
+
+
+.carousel button {
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 44px;
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    overflow: hidden; 
+  }
+
+  .carousel button:hover {
+    background-color: #bdb6e3;
+  }
+  
+.carousel img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 450px;
+}
+
+.loginpage {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(120deg,#ffe66b,#b3d9ff);
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginpage h1 {
+    text-align: center;
+    color: black;
+    padding: 0px 0px 20px 0px;
+}
+
+.center form {
+    padding: 0px 40px;
+    height: 250px;
+}
+
+form .fields {
+    position: relative;
+    margin: 40px 0;
+}
+
+
+.fields label{
+    position: absolute;
+    bottom: 100%;
+    left: 5px;
+}
+
+
+
+.fields input{
+    width: 100%;
+    padding: 0 5px;
+    height: 50px;
+    border-radius: 40px;
+    outline: none;
+    background: none;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    border-radius: 55px;
+    color: black;
+    font-size: 30px;
+    background-color: #b3d9ff;
+
+}
+
+input[type="submit"]:hover {
+    background-color: beige;
+    transition: .3s;
+}
+
+.welcome h1{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
